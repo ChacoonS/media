@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px; /*unidades REM*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    /* Paleta de colores */
+ --azul-pastel: #898EA6;
+ --celeste-pastel: #DCE3ED;
+ --piel: #EBD9CB;
+ --cafe-pastel: #D9CABD;
+ --blanco-hueso: #FAF5F2;
+
+
+    /* Tamano de fuente */
+    --size-h1: 3.6rem;
+    --size-h2: 2.6rem;
+    --size-h3: 1.8rem;
+    --size-parrafo: 1.4rem;
+}
+    
+    /*Estructura de secciones*/
+.background-section{
+    width:100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-body{
+    max-width: 130rem;
+    height: auto;
+    margin:auto;
+}
+
+    section{
+        max-width:100rem;
+        height: auto;
+        margin:auto;
+
+        padding: 5rem;
+        padding-bottom: 5rem;
+    }   
+
